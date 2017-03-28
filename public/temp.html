@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thinkful Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="outer">
+    <div class="header">
+        <h1>Thinkful Survey Form</h1>
+    </div>
+    <form action="#">
+        <div class="main">
+            <p>Let us know how we can improve Thinkful!</p>
+            <div class="identification">
+                <p>Please tell us about yourself:</p>
+                <div class="container">
+                    <label class="label" for="namebox"> Name: </label>
+                    <input class="input" type="text" id="namebox" placeholder="Enter your name" required>
+                </div>
+                <div class="container">
+                    <label class="label" for="emailbox"> Email: </label>
+                    <input class="input" type="email" id="emailbox" placeholder="Enter your email" required>
+                </div>
+                <div class="container">
+                    <label class="label" for="agebox">Age: </label>
+                    <input class="input" type="number" id="agebox" placeholder="Enter your age" required>
+                </div>
+                <div class="container">
+                    <label class="label" for="studentbox">What role do you play at Thinkful? </label>
+                    <select class="input" name="studentbox" id="studentbox">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="mentor">Mentor</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="survey">
+                <p>Please provide some insight into Thinkful</p>
+                <div class="container">
+                    <label class="label" for="q1">What is the likelihood you would refer Thinkful to a friend?</label>
+                    <div class="input">
+                        <ul>
+                            <li><input type="radio" name="q1" value="definitely"> Definitely</li>
+                            <li><input type="radio" name="q1" value="probably"> Probably</li>
+                            <li><input type="radio" name="q1" value="maybe"> Maybe</li>
+                            <li><input type="radio" name="q1" value="notsure"> Not Sure</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <label class="label" for="q2">What do you like most about Thinkful?</label>
+                    <div class="input">
+                        <select name="q2" id="q2">
+                            <option value="mentorship">Mentorship</option>
+                            <option value="curriculum">Curriculum</option>
+                            <option value="local-gatherings">Local Gatherings</option>
+                            <option value="workshops">Workshops</option>
+                            <option value="slack">Slack</option>
+                            <option value="open-sessions">Open Sessions</option>
+                        </select><br>
+                    </div>
+                </div>
+                <div class="container">
+                    <label class="label" for="q3">Things that can be improved (Check all that apply)</label>
+                    <div class="input">
+                        <ul>
+                            <li><input type="checkbox" id="q3" name="q3" value="curriculum"> Curriculum</li>
+                            <li><input type="checkbox" name="q3" value="mentorship"> Mentorship</li>
+                            <li><input type="checkbox" name="q3" value="local-gatherings"> Local Gatherings</li>
+                            <li><input type="checkbox" name="q3" value="workshops"> Workshops</li>
+                            <li><input type="checkbox" name="q3" value="open-sessions"> Open Sessions</li>
+                            <li><input type="checkbox" name="q3" value="course-options"> Course Options</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container">
+                    <label class="label" for="q4">If you have additional comments/suggestions, please leave them
+                        here</label>
+                    <textarea class="input" name="q4" id="q4" cols="50" rows="6"
+                              placeholder="Enter your comments here"></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

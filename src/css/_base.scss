@@ -1,0 +1,69 @@
+//Base rules are the **defaults**. They are almost exclusively single element selectors but it could include attribute selectors,
+// pseudo-class selectors, child selectors or sibling selectors. Essentially, a base style says that wherever this element is on the page, it should look like this.
+/*----------------------------------------------------------------------------
+  Fonts
+----------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+/*----------------------------------------------------------------------------
+  Body
+----------------------------------------------------------------------------*/
+body {
+  color: $gray90;
+  font-family: $fontroboto; //note i changed this, not sure why body comes before html (other than alphabetically, is there an impact on inheritance and "order of operations?"
+  background: powderblue;
+}
+
+//main {
+//    background: ghostwhite;
+//}
+
+/*----------------------------------------------------------------------------
+  Headings
+----------------------------------------------------------------------------*/
+h1{
+    font-size: $size28;
+    font-weight: 700;
+}
+
+h2 {
+  font-size: $size24;
+}
+
+h3 {
+  font-size: $size20;
+}
+
+h4 {
+  font-size: $size16;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+  /*----------------------------------------------------------------------------
+    HTML
+  ----------------------------------------------------------------------------*/
+html {
+    font-family: $fontroboto; //is this being overwritten by "body" section above? discuss
+    font-size: 16px;
+
+}
+
+
+/*----------------------------------------------------------------------------
+  inputs
+----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+  labels
+----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------
+  Paragraphs
+----------------------------------------------------------------------------*/
