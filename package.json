@@ -1,7 +1,7 @@
 {
-  "name": "survey-form",
+  "name": "tryb",
   "version": "1.0.0",
-  "description": "Survey Form Project for FCC",
+  "description": "tryb project",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arirobbins/fcc-survey-form.git"
+    "url": "git+https://github.com/arirobbins/tryb.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ari Robbins",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arirobbins/fcc-survey-form/issues"
+    "url": "https://github.com/arirobbins/trybissues"
   },
-  "homepage": "https://github.com/arirobbins/fcc-survey-form#readme",
+  "homepage": "https://github.com/arirobbins/tryb#readme",
   "dependencies": {
     "express": "^4.15.2",
     "morgan": "^1.8.1"
