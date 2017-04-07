@@ -4,19 +4,20 @@
   Fonts
 ----------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Oxygen|Poppins|Roboto+Mono|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Merriweather');
+
+* {
+    box-sizing: border-box;
+}
 
 /*----------------------------------------------------------------------------
   Body
 ----------------------------------------------------------------------------*/
 body {
-  color: $gray90;
-  font-family: $fontroboto; //note i changed this, not sure why body comes before html (other than alphabetically, is there an impact on inheritance and "order of operations?"
-  background: powderblue;
+    font-family: $fontroboto;
+    //padding: 10px;
 }
-
-//main {
-//    background: ghostwhite;
-//}
 
 /*----------------------------------------------------------------------------
   Headings

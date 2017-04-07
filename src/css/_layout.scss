@@ -1,110 +1,110 @@
-//Layout rules divide the page into sections. Layouts hold one or more modules together.
-//This mostly refers to the larger layout components such as header, footer, article, etc.
-
-
-.outer {
-    width: 90%;  //337px
-    margin: 0 auto;
-    padding: 10px;
-
-    @include responsive(wilson){
-        width: calc(60% * $wilson); //249px
-    }
-    @include responsive(nixon) {
-        width: 860px;
-    }
-}
-
-.header {
-    padding: 10px;
-    text-align: center;
-}
-
-.main {
-    background: #fafafa;
-    padding: 20px;
-    border-radius: 4px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    //margin: 10px 0;
-    padding: 8px;
-
-    @include responsive(wilson){
-        flex-flow: row wrap;
-    }
-}
-
-.label {
-    //min-width: 100px;
-    //max-width: 300px;
-    //text-align: center;
-    flex: 1 1;
-    padding: 4px;
-
-    @include responsive(wilson){
-        text-align: right;
-    }
-}
-
-.input {
-    //min-width: 200px;
-    //max-width: 400px;
-    flex: 2 2;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 4px;
-
-    .survey & {
-        border: none;
-    }
-
-    @include responsive(wilson){
-        margin-left: 20px;
-    }
-}
-
-textarea {
-    border: 1px solid #ccc !important; //for shame :(
-    border-radius: 4px !important;  //for shame :(
-}
-
-p {
-    padding: 5px 0px;
-    .main & {
-        font-size: 20px;
-        text-align: center;
-    }
-    .identification & {
-        margin: 20px 0 10px 0;
-    }
-    .survey & {
-        margin: 20px 0 10px 0;
-    }
-}
-
-.a1 {
-    background: #e2e2e2;
-    border-radius: 4px;
-    padding: 0px 10px;
-    @include responsive(wilson) {
-        width: 400px;
-        margin: 0 auto;
-    }
-}
-
-.a1.survey {
-    color: crimson;
-}
-
-//.survey {
+////Layout rules divide the page into sections. Layouts hold one or more modules together.
+////This mostly refers to the larger layout components such as header, footer, article, etc.
+//
+//
+//.outer {
+//    width: 90%;  //337px
+//    margin: 0 auto;
+//    padding: 10px;
+//
+//    //@include responsive(wilson){
+//    //    width: calc(60% * $wilson); //249px
+//    //}
+//    @include responsive(nixon) {
+//        width: 860px;
+//    }
+//}
+//
+//.header {
+//    padding: 10px;
+//    text-align: center;
+//}
+//
+//.main {
+//    background: #fafafa;
+//    padding: 20px;
+//    border-radius: 4px;
+//}
+//
+//.container {
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    //margin: 10px 0;
+//    padding: 8px;
+//
+//    @include responsive(wilson){
+//        flex-flow: row wrap;
+//    }
+//}
+//
+//.label {
+//    //min-width: 100px;
+//    //max-width: 300px;
+//    //text-align: center;
+//    flex: 1 1;
+//    padding: 4px;
+//
+//    @include responsive(wilson){
+//        text-align: right;
+//    }
+//}
+//
+//.input {
+//    //min-width: 200px;
+//    //max-width: 400px;
+//    flex: 2 2;
+//    border: 1px solid #ccc;
+//    border-radius: 4px;
+//    padding: 4px;
+//
+//    .survey & {
+//        border: none;
+//    }
+//
+//    @include responsive(wilson){
+//        margin-left: 20px;
+//    }
+//}
+//
+//textarea {
+//    border: 1px solid #ccc !important; //for shame :(
+//    border-radius: 4px !important;  //for shame :(
+//}
+//
+//p {
+//    padding: 5px 0px;
+//    .main & {
+//        font-size: 20px;
+//        text-align: center;
+//    }
+//    .identification & {
+//        margin: 20px 0 10px 0;
+//    }
+//    .survey & {
+//        margin: 20px 0 10px 0;
+//    }
+//}
+//
+//.a1 {
 //    background: #e2e2e2;
 //    border-radius: 4px;
 //    padding: 0px 10px;
+//    @include responsive(wilson) {
+//        width: 400px;
+//        margin: 0 auto;
+//    }
 //}
-
-
-
+//
+//.a1.survey {
+//    color: crimson;
+//}
+//
+////.survey {
+////    background: #e2e2e2;
+////    border-radius: 4px;
+////    padding: 0px 10px;
+////}
+//
+//
+//

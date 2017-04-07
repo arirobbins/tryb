@@ -7,14 +7,73 @@ $animate: 0.2s;
 /*----------------------------------------------------------------------------
   Colors
 ----------------------------------------------------------------------------*/
-$gray20: #e7e7e7;
-$gray30: #d3d3d3;
-$gray40: #A0A0A0;
-$gray60: #8c8c8c;
-$gray70: #858585;
-$gray90: #3b3f47;
+//Primary Color (s)
+
+$tomato1-hex: #ff6347;
+
+//Monochromatic Colors (tomato)
+//Color Wheel - https://www.sessions.edu/color-calculator-results/?colors=ff6347,f27c67,e69385,d9a79e
+
+$tomato2-hex: #f27c67;
+$tomato3-hex: #e69385;
+$tomato4-hex: #d9a79e;
+
+//Complimentary Colors (tomato)
+//Color Wheel - https://www.sessions.edu/color-calculator-results/?colors=ff6347,47e3ff
+
+$lightblue-hex: #47e3ff;
+
+//Tetradic Colors (tomato)
+//Color Wheel - https://www.sessions.edu/color-calculator-results/?colors=ff6347,47e3ff,6347ff,e3ff47
+
+//$lightblue-hex: #47e3ff;
+$purple-hex: #6347ff;
+$yellow-hex: #e3ff47;
+
+//Triadic Colors (tomato)
+//Color Wheel - https://www.sessions.edu/color-calculator-results/?colors=ff6347,6347ff,47ff63
+
+//$purple-hex: #6347ff;
+$green-hex: #47ff63;
+
+//Split Complimentary Colors (tomato)
+//Color Wheel - https://www.sessions.edu/color-calculator-results/?colors=ff6347,4787ff,47ffbf
+
+$blue-hex: #4787ff;
+$aqua-hex: #47ffbf;
+
+//Analogous Colors (tomato)
+//Color Wheel - https://www.sessions.edu/color-calculator-results/?colors=ff6347,ffbf47,ff4787
+
+$darkyellow-hex: #ffbf47;
+$pink-hex: #ff4787;
 
 
+
+/*----------------------------------------------------------------------------
+  Colors - Palette2
+----------------------------------------------------------------------------*/
+$blue-flat: #3f6f8f;
+$yellow-flat: #ccb958;
+
+//monochromatic blues
+
+$blue-flat-2: #4d6d82;
+$blue-flat-3: #576a76;
+$blue-flat-4: #5d6469;
+
+//analogous - blue
+$purple-flat: #4f3f8f;
+$green-flat: #3f8f5f;
+
+//monochromatic yellows
+$yellow-flat-2: #bfb26f;
+$yellow-flat-3: #b3ab83;
+$yellow-flat-4: #a6a392;
+
+//analogous - yellow
+$yellowgreen: #b9cc58;
+$orange: #cc9c58;
 /*----------------------------------------------------------------------------
   Font Families
 ----------------------------------------------------------------------------*/
@@ -26,6 +85,16 @@ $fontroboto: 'Roboto', sans-serif;
   Font Sizes
 ----------------------------------------------------------------------------*/
 // The base size for this site is 14px
+
+$font-size--xs: 12px;
+$logo--xxl: 80px;
+$logo--xl: 60px;
+$logo--lg: 50px;
+$logo--med: 40px;
+$logo--sm: 30px;
+$logo--xs: 20px;
+
+
 $size05: 0.357rem;
 $size06: 0.429rem;
 $size07: 0.5rem;

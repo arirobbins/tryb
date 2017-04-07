@@ -5,7 +5,7 @@ var babel = require('gulp-babel'),
     ngAnnotate = require('gulp-ng-annotate'),
     nodemon = require('gulp-nodemon'),
     sass = require('gulp-sass'),
-    sourcemaps = require('gulp-sourcemaps');
+    sourcemaps = require('gulp-sourcemaps')
 
 gulp.task('build', function() {
   return gulp.src(['./src/js/main.js', './src/js/**/*.js'])

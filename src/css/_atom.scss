@@ -1,0 +1,525 @@
+/*-----------------------------------------------------------------
+Info about Atoms here
+------------------------------------------------------------------*/
+/*-----------------------------------------------------------------
+Quarks
+------------------------------------------------------------------*/
+*{
+    //margin: 0;
+    //height: 100%;
+
+}
+
+.patterns {
+    margin: 10px;
+}
+
+//main {
+//    width: 90%;
+//    height: 100%;
+//
+//}
+
+.wrap {
+    background: $blue-flat;
+    //width: 80%;
+    //height: 100%;
+}
+
+
+.border {
+    color: $yellow-flat-2;
+
+    &__bottom {
+        border-top: 3px dotted;
+        border-bottom: 3px solid;
+        border-left: 3px solid;
+        border-right: 3px dotted;
+        padding: 5px;
+        //border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        //border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        //border-bottom: dotted;
+    }
+
+    //&__left {
+    //    border-left: 3px dotted;
+    //    padding: 5px;
+    //}
+
+
+}
+
+/*-----------------------------------------------------------------
+Buttons
+------------------------------------------------------------------*/
+
+.btn {
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 0;
+    opacity: 0.80;
+    border-style: none;
+    transition: all 600ms ease-in-out;
+
+    &--lg {
+        width: 100px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+
+    &--med {
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    &--sm {
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    &--red {
+        background: $tomato1-hex;
+    }
+
+    &--blue {
+        background: $blue-hex;
+    }
+
+    &--green {
+        background: $green-hex;
+    }
+    &:hover {
+        opacity: 1;
+    }
+}
+
+
+
+/*-----------------------------------------------------------------
+Icons
+------------------------------------------------------------------*/
+//Note that when using font awesome the icon class needs to be applied to both
+//the containing div as well as the i element, however the size 'icon--lg' class
+//need only be applied to the containing div, and will not work on the i element
+
+.icon {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+
+    &--lg {
+        font-size: 36px;
+    }
+
+    &--med {
+        font-size: 24px;
+    }
+
+    &--sm {
+        font-size: 16px;
+    }
+
+    &--red {
+        color: $tomato1-hex;
+    }
+
+    &--blue {
+        color: $blue-hex;
+    }
+
+    &--green {
+        color: $green-flat;
+    }
+
+    &--blue {
+        color: $blue-flat;
+    }
+
+    &--yellow {
+        color: $yellow-flat-2;
+    }
+
+    &--orange {
+        color: $orange;
+    }
+    &--hover{
+        &:hover {
+            cursor: pointer;
+            color: $yellow-flat-2;
+            //border: 1px solid $yellow-flat-2;
+            //padding: 4px;
+        }
+    }
+    &--after {
+        &:after{
+
+        }
+    }
+}
+
+
+/*-----------------------------------------------------------------
+Font - Logo, Regular
+------------------------------------------------------------------*/
+.font {
+    font-family: "Arial Black";
+
+    &--xs{
+        font-size: 16px;
+    }
+
+    &--sm {
+        font-size: 20px;
+    }
+
+    &--med {
+        font-size: 24px;
+    }
+
+    &--lg {
+        font-size: 28px;
+    }
+
+    &--xl {
+        font-size: 32px;
+    }
+
+    &--orange {
+        color: $orange;
+    }
+
+    &--yellow {
+        color: $yellow-flat-2;
+    }
+
+    &--blue {
+        color: $blue-flat;
+    }
+
+    &--green {
+        color: $green-flat;
+    }
+
+}
+
+.font2 {
+    font-family: Arial;
+
+    &--xxs{
+        font-size: 14px;
+    }
+
+    &--xs{
+        font-size: 16px;
+    }
+
+    &--sm {
+        font-size: 20px;
+    }
+
+    &--med {
+        font-size: 24px;
+    }
+
+    &--lg {
+        font-size: 28px;
+    }
+
+    &--xl {
+        font-size: 32px;
+    }
+
+    &--orange {
+        color: $orange;
+    }
+
+    &--yellow {
+        color: $yellow-flat-2;
+    }
+
+    &--blue {
+        color: $blue-flat;
+    }
+
+    &--green {
+        color: $green-flat;
+    }
+
+}
+
+.logo {
+    font-family: 'Lalezar';
+    line-height: 1;
+    &--xxl {
+        font-size: $logo--xxl;
+    }
+
+    &--xl {
+        font-size: $logo--xl;
+    }
+
+    &--lg {
+        font-size: $logo--lg;
+    }
+
+    &--med {
+        font-size: $logo--med;
+    }
+
+    &--sm {
+        font-size: $logo--sm;
+    }
+
+    &--xs {
+        font-size: $logo--xs;
+    }
+
+    &--blue {
+        color: $blue-flat;
+    }
+
+    &--yellow {
+        color: $yellow-flat-2;
+    }
+
+}
+
+/*-----------------------------------------------------------------
+Navigation
+------------------------------------------------------------------*/
+.nav {
+    width: 100%;
+    //margin: 0 0 15px 0;
+
+    &--lg {
+        height: 100px;
+    }
+
+    &--med {
+        height: 75px;
+    }
+
+    &--sm {
+        height: 50px;
+    }
+
+    &--red {
+        background: $tomato1-hex;
+    }
+
+    &--blue {
+        background: $blue-hex;
+    }
+}
+
+/*-----------------------------------------------------------------
+Footer
+------------------------------------------------------------------*/
+.foot {
+    width: 100%;
+    margin: 20px 0 0 0;
+
+    &--lg {
+        height: 100px;
+    }
+
+    &--med {
+        height: 75px;
+    }
+
+    &--sm {
+        height: 50px;
+    }
+
+    &--red {
+        background: $tomato1-hex;
+    }
+
+    &--blue {
+        background: $blue-hex;
+    }
+}
+
+/*-----------------------------------------------------------------
+Flex Grid
+------------------------------------------------------------------*/
+.flex {
+    display: flex;
+    margin-bottom: 25px;
+
+    &--row {
+        flex-direction: row;
+    }
+
+    &--col {
+        flex-direction: column;
+    }
+
+    &--col-rev {
+        flex-direction: column-reverse;
+    }
+
+    &--align-con {
+        &-start {
+            align-content: flex-start;
+        }
+
+        &-end {
+            align-content: flex-end;
+        }
+        &-center {
+            align-content: center;
+        }
+        &-arnd {
+            align-content: space-around;
+        }
+        &-btw {
+            align-content: space-between;
+        }
+    }
+
+    &--align-items {
+        &-start {
+            align-items: flex-start;
+        }
+
+        &-end {
+            align-items: flex-end;
+        }
+        &-center {
+            align-items: center;
+        }
+    }
+
+    &--justify {
+        &-start {
+            justify-content: flex-start;
+        }
+        &-end {
+            justify-content: flex-end;
+        }
+        &-center {
+            justify-content: center;
+        }
+        &-arnd {
+            justify-content: space-around;
+        }
+        &-btw {
+            justify-content: space-between;
+        }
+    }
+
+    &__header {
+        margin-bottom: 40px;
+    }
+
+    &__item {
+        text-align: left;
+        &--sm {
+            width: 100px;
+        }
+        &--med {
+            width: 200px;
+        }
+        &--lg {
+
+        }
+    }
+}
+
+/*-----------------------------------------------------------------
+Picklists
+------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------
+Other
+------------------------------------------------------------------*/
+
+.item4 {
+    width: calc(25% - 1%);
+    height: 100px;
+    background: $blue-hex;
+}
+
+.item12 {
+    width: calc(8.33% - 1%);
+    height: 100px;
+    background: $purple-hex;
+}
+.item6 {
+    width: calc(16.66% - 1%);
+    height: 100px;
+    background: $tomato1-hex;
+}
+
+.item8 {
+    width: calc(12.5% - 1%);
+    height: 100px;
+    background: $green-hex;
+}
+
+
+.stuff {
+    display: inline-block;
+    position: relative;
+}
+
+.stuff:after {
+    background: $yellow-flat-2;
+    bottom: 0;
+    content: '';
+    height: 3px;
+    position: absolute;
+    right: 0;
+    width: 1000%;
+}
+
+.label {
+    &__primary {
+        &:hover {
+            cursor: pointer;
+            font-size: 105%;
+            //transition: 2s ease-out;
+
+        }
+    }
+    &__secondary {
+        color: $orange;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline-color: $yellow-flat-2;
+    height: 25px;
+    vertical-align: middle;
+}
+
+select {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline-color: $yellow-flat-2;
+    height: 25px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+

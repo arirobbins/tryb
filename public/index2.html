@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tryb - tools for family</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/c7dfdd3faa.js"></script>
+    <script src="main.js"></script>
+
+</head>
+<body class="wrap">
+<div class="wrap">
+    <header class="flex__header">
+        <div class="flex flex--justify-btw nav nav--sm">
+            <div class="logo logo--xxl logo--yellow">tryb</div>
+            <div id="admin-mode" class="font font--sm font--yellow">(admin)</div>
+        </div>
+        <div class="flex flex--col">
+            <div class="font2 font2--xs font2--yellow">tools for family.</div>
+            <div class="font2 font2--xs font2--yellow">family for life.</div>
+        </div>
+    </header>
+    <main>
+        <div class="flex flex--col flex--align-items-center">
+            <div class="icon icon--lg icon--yellow flex__item--sm">
+                <label id="js-tasks-label" class="label__primary font font--xl stuff">tasks</label>
+                <div id="js-tasks" class="hidden icon icon--sm flex__item--med">
+                    <ul>
+                        <li>
+                            <div id="js-toggle-list">
+                                <i class="fa fa-plus icon icon--orange icon--hover"></i>
+                                <label id="js-add-list" class="label__secondary">add task list?</label>
+                            </div>
+                            <div id="js-list-submit" class="hidden icon--med">
+                                <input id="js-list-input" class="font2 font2--xxs" type="text" placeholder="Enter a unique task list">
+                                <i class="fa fa-plus-square icon icon--orange icon--hover"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="js-add-task">
+                                <i class="fa fa-plus icon icon--orange icon--hover"></i>
+                                <label class="label__secondary">add task?</label>
+                                <div id="js-task-list" class="picklist hidden">
+                                    <select name="task-list-optionset" id="task-list-optionset">
+                                        <option selected disabled>Select a List</option>
+                                    </select>
+                                </div>
+                                <div id="js-task-submit" class="icon--med">
+                                    <input id="js-task-type-input" class="font2 font2--xxs" type="text" placeholder="add a task">
+                                    <i class="fa fa-plus-square icon icon--orange icon--hover"></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icon icon--lg icon--yellow flex__item--sm">
+                <label id="js-chores-label" class="label__primary font font--xl stuff">chores</label>
+                <div id="js-chores" class="hidden">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="icon icon--lg icon--yellow flex__item--sm">
+                <label id="js-rewards-label" class="label__primary font font--xl stuff">rewards</label>
+                <div id="js-rewards" class="hidden">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="icon icon--lg icon--yellow flex__item--sm">
+                <label id="js-children-label" class="label__primary font font--xl stuff">children</label>
+                <div id="js-children" class="hidden">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
